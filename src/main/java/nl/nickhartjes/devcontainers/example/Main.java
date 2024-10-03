@@ -14,7 +14,7 @@ public class Main {
         // Attempt to establish a connection
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
-            System.out.println("Successfully connected to the PostgreSQL database!");
+            System.out.println("Successfully connected to the Postgres database!");
 
             connection.close();
             System.out.println("Connection closed.");
